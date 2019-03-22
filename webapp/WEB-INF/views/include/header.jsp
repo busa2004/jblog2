@@ -27,6 +27,7 @@
 		<div class="cut">
 		<a href="${pageContext.request.contextPath}/${authUser.id}">
 		<img  src="${pageContext.request.contextPath}${blogVo.logo}"
+		 onerror="this.src='${pageContext.request.contextPath}/assets/images/user.png'"
 		 style="width:150px;height:150px;border-radius: 50%;"/>
 		 </a>
 		<%-- <img  src="${pageContext.request.contextPath}/assets/images/white.png" /> --%>

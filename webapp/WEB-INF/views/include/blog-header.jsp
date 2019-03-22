@@ -4,7 +4,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 		
 		<div id="header">
-		<div><p><a href="${pageContext.servletContext.contextPath }" style="color:white;margin:5px;">jblog</a></p></div>
+		<div><p><a href="${pageContext.servletContext.contextPath }/" style="color:white;margin:5px;">jblog</a></p></div>
 			<h1><a href="${pageContext.servletContext.contextPath }/${authUser.id}" style="color:white;">${blogVo.title}</a></h1>
 			<ul>
 			<c:choose>
