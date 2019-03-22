@@ -10,7 +10,7 @@ import com.douzone.config.web.MessagesConfig;
 import com.douzone.config.web.Securityconfig;
 
 @Configuration
-@ComponentScan(value= {"com.douzone.jblog.controller"})
+@ComponentScan(value= {"com.douzone.jblog.controller","com.douzone.jblog.exception"})
 @Import(value= {Securityconfig.class , MVCConfig.class, MessagesConfig.class,FileUploadConfig.class})
 public class WebConfig {
 
