@@ -19,7 +19,7 @@
 		<div class="profile-img">
 		<c:choose>
 		<c:when test="${ empty authUser }">
-		<a href="${pageContext.request.contextPath}/user/login"">
+		<a href="${pageContext.request.contextPath}/user/login">
 		<img src="${pageContext.request.contextPath}/assets/images/user.png" style="width:150px;">
 		</a>
 		</c:when>
@@ -36,6 +36,6 @@
 		</c:choose>
 		</div>
 		<div class="brand">
-		<a href="${pageContext.servletContext.contextPath }"><img src="${pageContext.request.contextPath}/assets/images/jblog-logo.png" style="width:250px;" ></a>
+		<a href="${pageContext.servletContext.contextPath }/"><img src="${pageContext.request.contextPath}/assets/images/jblog-logo.png" style="width:250px;" ></a>
 		</div>
 		
